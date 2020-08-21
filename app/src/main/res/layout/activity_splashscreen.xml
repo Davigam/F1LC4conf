@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.activities.SplashscreenActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altoLogoFire"
+        android:src="@drawable/fire1"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
