@@ -7,5 +7,7 @@
     <dimen name="altoImageViewHome">180dp</dimen>
 
     <dimen name="sizeTitle">30sp</dimen>
-    <dimen name="sizeDescription">15</dimen>
+    <dimen name="sizeDescription">15sp</dimen>
+    <dimen name="scheduleHourSize">35sp</dimen>
+    <dimen name="scheduleHourSizeAmPm">20</dimen>
 </resources>

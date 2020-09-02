@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvScheduleHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:gravity="end|bottom"
+                android:textSize="@dimen/scheduleHourSize"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvScheduleAmPm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AM"
+                android:gravity="end|top"
+                android:textSize="@dimen/scheduleHourSizeAmPm"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvScheduleConfName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la Conferencia"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tvScheduleSpeakerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Conferencista"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tvScheduleConfTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAG"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:textStyle="normal"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
