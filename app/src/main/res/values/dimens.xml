@@ -3,9 +3,9 @@
     <dimen name="altoLogoFire">250dp</dimen>
     <dimen name="altoLogoToolbar">50dp</dimen>
     <dimen name="anchoLogoToolbar">500dp</dimen>
-    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="cardCornerRadius">15dp</dimen>
     <dimen name="altoImageViewHome">180dp</dimen>
 
-    <dimen name="sizeTitle">35sp</dimen>
-    <dimen name="sizeDescription">20</dimen>
+    <dimen name="sizeTitle">30sp</dimen>
+    <dimen name="sizeDescription">15</dimen>
 </resources>
